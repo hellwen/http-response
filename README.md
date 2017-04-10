@@ -2,16 +2,16 @@
 
 ```
 influxdb:
-- url: "http://139.199.73.164:32003"
+- url: "http://10.10.10.1:1010"
   database: "ops"
   username: "root"
   password: "root"
 
 address:
-- url: "http://192.168.10.2:30001"
+- url: "http://192.168.10.1:3001"
   method: "GET"
   response_timeout: "5s"
-- url: "http://192.168.10.2:30002"
+- url: "http://192.168.10.2:3002"
   method: "GET"
   response_timeout: "5s"
 ```
